@@ -22,4 +22,9 @@ nvm install --lts &&
 nvm use 'lts/*' && # LTS v12.x
 
 # Update Node Package Manager (NPM)
-npm install npm@latest -g &&
+npm install npm@latest -g  &&
+
+# Output Node Related Version Info
+echo "[NPM] ============"; which npm; npm -v &&
+echo "[NVM] ============"; nvm --version; nvm ls &&
+echo "[NODE] ============"; which node; node -v

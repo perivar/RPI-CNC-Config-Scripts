@@ -19,5 +19,5 @@ npm install -g socket.io-parser &&
 
 # Install CNCjs for Node 6
 # should add the binaries (cnc and cncjs) to ~/.nvm/versions/node/v4/bin/
-npm install -g cncjs &&
+npm install -g cncjs
 # uninstall using: npm uninstall -g cncjs
