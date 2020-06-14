@@ -15,6 +15,5 @@ sudo apt-get -y upgrade
 #sudo apt-get install xrdp -y
 #sudo apt-get install git -y
 
-
 # Clean out cache
 sudo apt-get clean

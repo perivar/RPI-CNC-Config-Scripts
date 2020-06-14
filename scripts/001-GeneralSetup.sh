@@ -8,8 +8,6 @@ sudo apt-get -y --force-yes install minicom tightvncserver xrdp
 
 sudo apt-get install gparted -y
 
-
-
 # Stop the console from outputting ot hardware serial pins
 sudo sed -i 's/ console=serial0,115200//g' /boot/cmdline.txt
 
