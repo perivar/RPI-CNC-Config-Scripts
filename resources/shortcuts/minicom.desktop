@@ -2,7 +2,7 @@
 Name=Minicom /dev/ttyAMA0
 Version=1.0
 Comment=Launches application
-Exec=minicom -b 115200 -o -D /dev/ttyAMA0
+Exec=minicom -b 115200 -o -D /dev/ttyUSB0
 Icon=/usr/share/pixmaps/openbox.xpm
 Terminal=true
 Type=Application

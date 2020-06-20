@@ -4,7 +4,9 @@
 cp -a ~/RPI-CNC-Config-Scripts/resources/shortcuts/. /home/pi/Desktop/
 
 # Install utilities to make things easier
-sudo apt-get -y --force-yes install minicom tightvncserver xrdp
+# sudo apt-get -y --force-yes install minicom tightvncserver xrdp
+# keep the realvnc app that comes with Raspberry OS
+sudo apt-get -y --force-yes install minicom xrdp
 
 sudo apt-get install gparted -y
 
@@ -12,3 +14,4 @@ sudo apt-get install gparted -y
 sudo sed -i 's/ console=serial0,115200//g' /boot/cmdline.txt
 
 sudo shutdown -r now
+
