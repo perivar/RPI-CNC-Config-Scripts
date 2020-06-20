@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=2.0
+Type=Application
+Name=Universal G-Code Sender2
+Comment=Universal G-Code Sender2
+Exec=/home/pi/ugs2.0/start.sh
+Terminal=false
+StartupNotify=false
+Name[en_US]=Universal G-Code Sender 2.x
