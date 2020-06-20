@@ -28,3 +28,10 @@ unzip ugs2.0.zip
 jar -xf UniversalGcodeSender.jar
 chmod +x start.sh
 rm ugs2.0.zip
+
+echo "######################3##########################"
+echo "Note! Remember to use JSSC as the Connection Driver"
+echo "on Raspberry instead of the JSerialCom"
+echo "for more stable operations"
+echo "######################3##########################"
+
